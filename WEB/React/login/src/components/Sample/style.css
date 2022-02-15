@@ -1,0 +1,31 @@
+ul {
+  padding: 0;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 20px;
+  &:nth-child(1) button {
+    background: #f3ffbd;
+  }
+  &:nth-child(2) button {
+    background: #247ba0;
+  }
+  &:nth-child(3) button {
+    background: #ff1654;
+  }
+}
+button {
+  position: relative;
+  background: rebeccapurple;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  color: white;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 50px;
+  cursor: pointer;
+  padding: 0;
+}
